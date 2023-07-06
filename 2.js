@@ -3,7 +3,7 @@
 и вызвать функцию greeting, передав туда полученное от пользователя значение. */
 
 function greeting() {
-  let name = prompt('Как Вас зовут?');
+  const name = prompt('Как Вас зовут?');
   alert(`Здравствуйте, ${name}!`);
 }
 
